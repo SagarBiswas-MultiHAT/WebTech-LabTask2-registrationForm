@@ -1,59 +1,90 @@
+/* =========================
+   Global Styles
+========================= */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(90deg, #2563eb 60%, #1e40af 100%);
     min-height: 100vh;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 16px; /* important for small screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
+/* =========================
+   Form Container
+========================= */
 .form-container {
-    background: #fff;
-    width: 500px;
-    /* center without margin */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* margin: 50px auto; */
-    padding: 28px;
-    border-radius: 12px;
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 14px;
     border: 2px solid #000000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* =========================
+   Heading
+========================= */
 h2 {
     text-align: center;
     color: #1a365d;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
 }
 
+/* =========================
+   Form Groups
+========================= */
 .form-group {
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
 }
 
+/* =========================
+   Labels
+========================= */
 label {
     margin-bottom: 6px;
     color: #2d3a4a;
     font-weight: 500;
+    font-size: 0.95rem;
 }
 
+/* =========================
+   Inputs & Selects
+========================= */
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"],
 select {
-    padding: 10px 12px;
+    padding: 12px;
     border: 1.5px solid #bfc9d9;
-    border-radius: 6px;
-    font-size: 16px;
+    border-radius: 8px;
+    font-size: 1rem;
     background: #f9fbfd;
     outline: none;
-    /* outline: none; used to remove the default focus outline */
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Focus (keyboard & accessibility friendly) */
+input:focus,
+select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+}
+
+/* Validation States */
 input.valid,
 select.valid {
     border-color: #10b981;
@@ -66,34 +97,70 @@ select.invalid {
     background: #fef2f2;
 }
 
-/* Focused field highlight for JS-based focus highlighting */
+/* JS focus highlight */
 input.focused,
 select.focused {
-    background: #c1dcff;
-    box-shadow: 0 0 0 2px #15ff00;
+    background: #e6f0ff;
+    box-shadow: 0 0 0 3px rgba(21, 255, 0, 0.4);
 }
 
+/* =========================
+   Submit Button
+========================= */
 button[type="submit"] {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     background: linear-gradient(90deg, #2563eb 60%, #1e40af 100%);
-    color: #fff;
+    color: #ffffff;
     border: none;
-    border-radius: 6px;
-    font-size: 1.1rem;
+    border-radius: 8px;
+    font-size: 1.05rem;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 10px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease;
 }
 
 button[type="submit"]:hover {
     background: linear-gradient(90deg, #1e40af 60%, #2563eb 100%);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
 
-/* for the checkBox */
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* =========================
+   Checkbox (Terms)
+========================= */
 .form-group.terms {
-    /* Set flex-direction to row so the checkbox and its label appear side by side horizontally instead of stacked vertically */
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.form-group.terms input {
+    width: 18px;
+    height: 18px;
+}
+
+/* =========================
+   Mobile Optimizations
+========================= */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .form-container {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 1rem;
+    }
 }
