@@ -1,4 +1,6 @@
-# WebTech-LabTask2 - Job Application Form 
+# WebTech-LabTask2 - Job Application Form
+
+[![Demo](https://img.shields.io/badge/demo-github%20pages-brightgreen)](https://sagarbiswas-multihat.github.io/WebTech-LabTask2-registrationForm/) [![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm/commits) [![Repo Size](https://img.shields.io/github/repo-size/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm) [![HTML Valid](https://img.shields.io/badge/HTML-validated-brightgreen)](https://validator.w3.org/) [![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)
 
 ## 📋 Lab Requirements
 
@@ -387,6 +389,6 @@ git push origin main
 
 ## 📄 License
 
-This project is created for educational purposes as part of the Web Technology course curriculum.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
