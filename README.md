@@ -1,6 +1,18 @@
 # WebTech-LabTask2 - Job Application Form
 
-[![Demo](https://img.shields.io/badge/demo-github%20pages-brightgreen)](https://sagarbiswas-multihat.github.io/WebTech-LabTask2-registrationForm/) [![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm/commits) [![Repo Size](https://img.shields.io/github/repo-size/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm) [![HTML Valid](https://img.shields.io/badge/HTML-validated-brightgreen)](https://validator.w3.org/) [![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)
+<div align="right">
+
+[![Demo](https://img.shields.io/badge/demo-github%20pages-brightgreen)](https://sagarbiswas-multihat.github.io/WebTech-LabTask2-registrationForm/) 
+&nbsp;
+[![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm/commits) 
+&nbsp;
+[![Repo Size](https://img.shields.io/github/repo-size/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm) 
+&nbsp;
+[![HTML Valid](https://img.shields.io/badge/HTML-validated-brightgreen)](https://validator.w3.org/) 
+&nbsp;
+[![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)](https://github.com/SagarBiswas-MultiHAT/WebTech-LabTask2-registrationForm)
+
+</div>
 
 ## 📋 Lab Requirements
 
